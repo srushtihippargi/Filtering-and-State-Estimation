@@ -1,5 +1,15 @@
 
-For this assignment, we will use [`ROS`](https://www.ros.org/) and `Python3` to execute the robot localization task.
+This project implements various state estimation filters for robot localization in a simulated environment using the motion and measurement models. The implemented filters include:
+
+Extended Kalman Filter (EKF)
+
+Unscented Kalman Filter (UKF)
+
+Particle Filter (PF)
+
+Right-Invariant EKF (RI-EKF)
+
+The goal is to localize a robot within an environment containing six landmarks, using noisy motion and measurement data.
 
 ## Dependencies
 ### System
